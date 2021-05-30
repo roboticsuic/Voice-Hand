@@ -9,3 +9,8 @@ The project that has been carried out is based on the open-source 3D robotics wo
 In relation to the movements that our prosthesis can perform, these can be classified as ROCK (closing all the fingers to form a fist with the hand) or TEST (contracting and relaxing one by one all the fingers). 
 
 Therefore, this report compiles the materials that have been needed, the procedures that have been followed and the problems that have been encountered throughout the challenge, as well as possible improvements that could be made to optimize this prosthesis.
+
+In the following Zip File you'll find all the parts needed to be 3D PRINTED:
+[3D Files.zip](https://github.com/roboticsuic/Voice-Hand/files/6566216/3D.Files.zip)
+
+
