@@ -178,7 +178,7 @@ In the MFCC Block: Use the following parameter to make the feature extraction:
 </table>
 <p> Then press generate features</p>
 <img width="163" alt="Screen Shot 2021-05-30 at 7 01 59 PM" src="https://user-images.githubusercontent.com/60470010/120113171-85819e00-c179-11eb-898f-d8ff56d5fc90.png">
-<p> It should generate a feature extraction graph like the one below</p>
+<p> It should generate a feature extraction graph like the one below, it shows the features extracted in clusters</p>
 
 <img width="600" alt="Screen Shot 2021-05-30 at 7 12 58 PM" src="https://user-images.githubusercontent.com/60470010/120113515-20c74300-c17b-11eb-8abf-d2c95f2be09e.png">
 
