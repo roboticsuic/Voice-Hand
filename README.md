@@ -1,6 +1,5 @@
 # Voice-Hand
-<h3>A 3D-printed dynamic hand prosthesis with voice recognition software.
-</h3>
+<h3>A 3D-printed dynamic hand prosthesis with voice recognition software. 
   <img width="950" alt="Screen Shot 2021-05-30 at 2 50 19 PM" src="https://user-images.githubusercontent.com/60470010/120104768-64f41c80-c156-11eb-8aee-cd612a9d6588.png">
 <h2>
 INTRODUCTION </h2>
@@ -11,14 +10,14 @@ The project that has been carried out is based on the open-source 3D robotics wo
 
 In relation to the movements that our prosthesis can perform, these can be classified as ROCK (closing all the fingers to form a fist with the hand) or TEST (contracting and relaxing one by one all the fingers). 
 
-Therefore, this report compiles the materials that have been needed, the procedures that have been followed and the problems that have been encountered throughout the challenge, as well as possible improvements that could be made to optimize this prosthesis.
-
+Therefore, this report compiles the materials that have been needed, the procedures that have been followed and the problems that have been encountered throughout the challenge, as well as possible improvements that could be made to optimize this prosthesis. Thos projet is based on:https://www.instructables.com/Voice-Controlled-Prosthetic-Hand-Forearm/
+	
 </p>
 
 <img width="950" alt="Screen Shot 2021-05-30 at 7 16 18 PM" src="https://user-images.githubusercontent.com/60470010/120113919-02624700-c17d-11eb-904e-1ba55acd0fcd.png">
 	
 
-<h2> MATERIALS</h2>
+<h2> MATERIALS, SOFTWARES, and HARDWARE</h2>
 <ul>
 <li>Arduino Nano 33 BLE Sense</li>
 <li>5x Servo motors (MG995)</li>
@@ -32,19 +31,25 @@ Screws:
 <li>Fishing line (Nylon)</li>
 <li>Breadboard</li>
 <li>PRUSA 3D printer</li>
-<li>PLA</li>
+<li>PLA(1.75mm fillament)</li>
 <li>Sandpaper</li>
 <li>Super glue</li>
 <li>Greese</li>
 <li>3D Printed(Print each file once)</li>
+<li>Ultimaker Cura software</li>
+<li>SOLIDWORKS software</li>
+<li>Edge Impulse software</li>
 </ul>
 	
  <h3> In the following Zip File you'll find all the parts needed to be 3D PRINTED:
 </h3>
 [3D Files.zip](https://github.com/roboticsuic/Voice-Hand/files/6566216/3D.Files.zip)
-
-
-
+<h4> 
+	APPROXIMATE COST:69€
+</h4>
+<h4> 
+	MATERIAL USED:
+</h4>
 <img width="950" alt="Screen Shot 2021-05-30 at 7 16 18 PM" src="https://user-images.githubusercontent.com/60470010/120113919-02624700-c17d-11eb-904e-1ba55acd0fcd.png">
 
 <h2>METHODS</h2>
