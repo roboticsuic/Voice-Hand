@@ -13,7 +13,8 @@ In relation to the movements that our prosthesis can perform, these can be class
 
 Therefore, this report compiles the materials that have been needed, the procedures that have been followed and the problems that have been encountered throughout the challenge, as well as possible improvements that could be made to optimize this prosthesis.</p>
 <h3>
-In the following Zip File you'll find all the parts needed to be 3D PRINTED:</h3>
+In the following Zip File you'll find all the parts needed to be 3D PRINTED:
+</h3>
 [3D Files.zip](https://github.com/roboticsuic/Voice-Hand/files/6566216/3D.Files.zip)
 
 
@@ -39,13 +40,12 @@ Screws:
 </ul>
   
 <h2>METHODS</h2>
-<li>First of all, you need to print out all the parts, which can be found on thingiverse.com. For this, the print setting we used for all the parts were:
-  </li>
+<p>1. First of all, you need to print out all the parts, which can be found on thingiverse.com. For this, the print setting we used for all the parts were:
+</p>
 <table>
 <thead>
 	<tr>
-		<th></th>
-		<thcolspan="2">PRINTING PARAMETERS</th>
+		PRINTING PARAMETERS
 	</tr>
 </thead>
 <tbody>
@@ -72,4 +72,34 @@ Screws:
 </tbody>
 </table>
 
+<p>
+This parameters may change if the printer used is different, the one we used was PRUSA 
 
+The parts that were printed are the following (you can find them in the zipfile above):</p>
+<ul>
+	<li>Fingers: Auriculaire3.stl, Index3.stl, Majeure3.stl, ringfinger3.stl, thumb5.stl </li>
+	<li> Wrist: robpart1V2.stl,robpart2V3, robpart3V3, WristsmallV3.stl, WristlargeV4.stl</li>
+	<li> Half forearm: robpart2V4.stl, robpart3V4.stl, robpart4V3.stl, robpart5V3.stl</li>
+	<li>Motor Mounts/Pieces: RobServoBedV5.stl, RobCableFrontV3.stl, RobCableBackV3.stl, RobRingV3.stl</li>
+</ul>
+
+<p>2. Once the parts are all printed, we need to start the assembly:
+
+- In order to assemble the joints you will need different types of screws. Maybe it is required to make the holes bigger to facilitate the fit  (you can use a drill, sandpaper or even modify it in solidworks). It is really important to ensure the easy bending of the finger parts, because if not the prosthetic hand will not be able to do all the desired movements and flex without resistance. 
+- Take the nylon and pull it through the different parts of the finger (leave enough excess length) and the channels of the hand and wrist. After that, make double knots where the fishing line can slip (tip of the fingers and cable tensioners). The fingers should be able to flex and relax when the strings are tightened (We had to grease the parts where there was the most friction to ensure this smooth movement).
+- Some parts will need glue to be attached, but make sure to do it once you have everything else done. Let it dry before using it.
+
+3. As soon as the prosthetic hand and forearm are assembled it is time to start programming. Below, you will find the code we used. 
+	</p>
+
+<h2> CODE</h2>
+
+<p>
+The folowing zipfile opens a folder with scripts. There are three scripts, one for the voice_control, another for the servo_motors, and one last that integrates both. THe last one didnt work in our presentation, it present an error in the first line which we dont understand why, but added it so you get a general idea on how it would work. Although this happens in the integrated one, the other two work perfectly in separate, so if you want to test it,you have both to give a try to everything. Each script's important features or line are commented with their respective function, purpose and logic behind. </p>
+
+[ARDUINO CODE.zip](https://github.com/roboticsuic/Voice-Hand/files/6566481/ARDUINO.CODE.zip)
+<ul>
+	<li>nano_ble33_sense_microphone_ALL: integrated</li> 
+	<li>nano_ble33_sense_microphone_VOICE: only voice</li>
+	<li>motor_code_only: servo motors</li>
+</ul>
