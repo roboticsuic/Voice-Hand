@@ -1,7 +1,10 @@
 # Voice-Hand
-A 3D-printed dynamic hand prosthesis with voice recognition software that stablishes commands for the prosthesis(servo-motors)to move. 
+A 3D-printed dynamic hand prosthesis with voice recognition software.
 
-
+  <img width="950" alt="Screen Shot 2021-05-30 at 2 50 19 PM" src="https://user-images.githubusercontent.com/60470010/120104768-64f41c80-c156-11eb-8aee-cd612a9d6588.png">
+<h2>
+INTRODUCTION 
+<h6>
 Do you live with only one hand or ever feel that two just is not enough? The task of biomimicking the human hand, the most dextrous tool ever devised, has taken on new significance and nowadays, owing to new technologies, including 3D printing, it is possible to build your own prosthesis and in a very economical way. 
 
 The project that has been carried out is based on the open-source 3D robotics work called InMoov and the proposed modifications of Patrick S. in its job: “DIY Prosthetic Hand & Forearm (Voice Controlled)”,  which can be found in instructables.com. In this way, this project aims to activate the movement of a prosthetic hand by means of the voice. To do so, it has been used an Arduino Nano 33 BLE Sense system and the software Edge Impulse (which utilizes machine learning and neural networks). The main interest of voice control remains in the fact that muscles are not required.
