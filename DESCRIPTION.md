@@ -116,7 +116,12 @@ Once connection has been stablished, go to the Edge Impulse webpage(https://www.
 
 Now go to data acquisition and select the microphone from the sensor that the Nano BLE has. 
 
-Record a minimum total of 1 minute for each class andmake each sample lenght of 2 seconds, we included three classes: TEST_DEVICE(saying 'prueba'), ROCK(saying 'cierra'), and noise(background noise to include any other classification that doesn't fall into the previous two on this one). The following are examples taken from our library:
+Record a minimum total of 1 minute for each class andmake each sample lenght of 2 seconds, we included three classes: TEST_DEVICE(saying 'prueba'), ROCK(saying 'cierra'), and noise(background noise to include any other classification that doesn't fall into the previous two on this one). This next folder download all the RAW DATA acquired and used for our project.
+
+	
+	
+	
+The following are examples taken from our library:
 
 Use the following blocks to make your processing and create the neural network.
 <img width="1292" alt="Screen Shot 2021-05-30 at 6 34 24 PM" src="https://user-images.githubusercontent.com/60470010/120112341-ab0ca880-c175-11eb-87a5-d8d612384436.png">
