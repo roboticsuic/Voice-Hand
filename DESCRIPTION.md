@@ -106,9 +106,7 @@ The parts that were printed are the following (you can find them in the zipfile 
 <img width="950" alt="Screen Shot 2021-05-30 at 7 16 18 PM" src="https://user-images.githubusercontent.com/60470010/120113919-02624700-c17d-11eb-904e-1ba55acd0fcd.png">
 <h2>EDGE IMPULSE</h2>
 
-As we had a problem with the EasyVR board, we had to find a solution for our project and change the initial proposal of using such hardware. We decided to icorporate TiniML by using EDGE IMPULSE vanguard software and platform to keep on with out work. In order to download and stablish connection between the Arduino Nano BLE and the Edge Impulse tools, refer to the following guide that thoroughly explains everything. If there is any problem you can reach out to one of the members of the team using the following email: eduardos@uic.es. This platform work for with Window and macOS users. 
-
-[Edge_Impulse-Arduino-UIC.pdf](https://github.com/roboticsuic/Voice-Hand/files/6566510/Edge_Impulse-Arduino-UIC.pdf)
+As we had a problem with the EasyVR board, we had to find a solution for our project and change the initial proposal of using such hardware. We decided to icorporate TiniML by using EDGE IMPULSE vanguard software and platform to keep on with out work. In order to download and stablish connection between the Arduino Nano BLE and the Edge Impulse tools check the configuration in the following link(https://docs.edgeimpulse.com/docs/arduino-nano-33-ble-sense). If there is any problem you can reach out to one of the members of the team using the following email: eduardos@uic.es. This platform work for with Window and macOS users. 
 
 Once connection has been stablished, go to the Edge Impulse webpage(https://www.edgeimpulse.com/) and make sure the arduino board is connected in the 'Devices
 ' tab. 
