@@ -130,7 +130,7 @@ Use the following blocks to make your processing and create the neural network.
 	- Window increase: 100ms milliseconds to increase the sliding window for each step
 	
 </li>
-<li> Audio(MFCC)/Feature extracter: a scale used to compare new frequencies with the classified ones. (source:https://medium.com/prathena/the-dummys-guide-to-mfcc-aceab2450fd)</li>
+<li> Audio(MFCC)/Feature extracter: a scale used to compare new frequencies with the classified ones(finds features). (source:https://medium.com/prathena/the-dummys-guide-to-mfcc-aceab2450fd)</li>
 <li> Neural Network(Keras): the neural network that will process the data and assign weight to the input based on the frequency similarity found in the MFCC features that were found</li>
     </ul>
 
@@ -248,15 +248,15 @@ We have been able to explore the different Arduino libraries, how to program wit
 
 <h4>DRAWBACKS</h4>
 <p>
-We have been able to explore the different Arduino libraries, how to program with Servos and even how to manipulate various softwares, specifically Edge Impulse. By now, we have mastered analyzing the setbacks as they happen and to find a solution as quickly as possible in order to move forward and overcome them. 
-
+While  building our robotic hand we confronted a few impediments that we had to overcome. First, one of our servos was faulty ,that is why we can observe in the video that the pinkie finger does not get up. Second, the EasyVR ,where all the voice data and material was, we were not able to make it work with the Arduino as we believe that the board could not process all the information that was inserted. Third, although the hand can partially move the four fingers,once we had all the hand built up and started executing the Arduino code the nylon thread became unstressed and could not realize its function correctly as the threads had to be as tense as possible to arise them completely forward. Another factor that was involved in the lifting of the fingers were the screws and the 3D printed pieces. The failure was due to the rubbing of the material with the screws and with the other piece where it is embedded.
 </p>
 
 <h4> FUTURE CONSIDERATIONS</h4>
 <p>
-We have been able to explore the different Arduino libraries, how to program with Servos and even how to manipulate various softwares, specifically Edge Impulse. By now, we have mastered analyzing the setbacks as they happen and to find a solution as quickly as possible in order to move forward and overcome them. 
-</p>
 
+As future improvements, we believe that changing the measurements of the pieces with Solidworks and using a through screw instead of a threaded screw would decrease the friction and permit the piece to move more freely, leaving the fingers to complete the entire movement. On the other hand, we also consider substituting  the nylon threads for another type of material that would not yield. And last, for the EasyVR we speculate that replacing the board for another one with more load capacity the system might not collapse and it could work.
+</p>
+<img width="200" alt="Screen Shot 2021-05-31 at 9 32 08 AM" src="https://user-images.githubusercontent.com/60470010/120157235-15176300-c1f3-11eb-9032-51e76c3e14a7.png">
 <h4>EXTRA RESOURCES</h4>
 <h5>Video</h5>
 
