@@ -118,7 +118,8 @@ Now go to data acquisition and select the microphone from the sensor that the Na
 
 Record a minimum total of 1 minute for each class andmake each sample lenght of 2 seconds, we included three classes: TEST_DEVICE(saying 'prueba'), ROCK(saying 'cierra'), and noise(background noise to include any other classification that doesn't fall into the previous two on this one). This next folder download all the RAW DATA acquired and used for our project.
 
-	
+	[RAW DATA.zip](https://github.com/roboticsuic/Voice-Hand/files/6569396/RAW.DATA.zip)
+
 	
 	
 The following are examples taken from our library:
