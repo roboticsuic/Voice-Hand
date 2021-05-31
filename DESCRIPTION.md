@@ -1,6 +1,7 @@
 # Voice-Hand
 <h3>A 3D-printed dynamic hand prosthesis with voice recognition software. 
   <img width="950" alt="Screen Shot 2021-05-30 at 2 50 19 PM" src="https://user-images.githubusercontent.com/60470010/120104768-64f41c80-c156-11eb-8aee-cd612a9d6588.png">
+Members: Cedric Cordova, Antonio Julia, Saioa Ortiz, and Eduardo Saman
 <h2>
 INTRODUCTION </h2>
 <p>
@@ -19,8 +20,8 @@ Therefore, this report compiles the materials that have been needed, the procedu
 
 <h2> MATERIALS, SOFTWARES, and HARDWARE</h2>
 <ul>
-<li>Arduino Nano 33 BLE Sense</li>
-<li>5x Servo motors (MG995)</li>
+<li>Arduino Nano 33 BLE Sense(https://store.arduino.cc/arduino-nano-33-ble-sense)</li>
+<li>5x Servo motors MG995(https://es.banggood.com/6X-MG995-High-Torque-Metal-Gear-Analog-Servo-for-RC-Airplane-Models-p-1181877.html?rmmds=detail-left-hotproducts&cur_warehouse=CZ)</li>
 Screws:
 <li>14 x 2.5mm (or 3mm) bolts (20mm long)</li>
 <li>1 x 8mm bolt (55mm long)</li>
@@ -46,9 +47,6 @@ Screws:
 [3D Files.zip](https://github.com/roboticsuic/Voice-Hand/files/6566216/3D.Files.zip)
 <h4> 
 	APPROXIMATE COST:69€
-</h4>
-<h4> 
-	MATERIAL USED:
 </h4>
 <img width="950" alt="Screen Shot 2021-05-30 at 7 16 18 PM" src="https://user-images.githubusercontent.com/60470010/120113919-02624700-c17d-11eb-904e-1ba55acd0fcd.png">
 
